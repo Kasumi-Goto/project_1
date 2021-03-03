@@ -58,6 +58,7 @@ $(function() {
             content: $('#dialog-edit').html()
         })
 
+        //填充表单
         var id = $(this).attr('data-id')
         console.log(id)
             // 发送请求获取分类数据
